@@ -1,0 +1,23 @@
+
+
+GET http://localhost:3003/ping
+###
+
+GET http://localhost:3003/Users
+###
+
+GET http://localhost:3003/Users?q=ful
+###
+
+
+POST http://localhost:3003/user
+Content-Type: application/json
+
+{
+    "name": "Cicrano",
+    "email": "cicrano@email.com",
+    "password": "12345",
+    "type": "adm"
+}
+###
+
